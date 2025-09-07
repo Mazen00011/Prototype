@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="mainnav" id="mainnav">
             <div>
                 <button onclick="showorhidemenu()" title="Menu" class="menubtn">☰</button>
                 <img src="logo.png" width="40">
@@ -46,31 +46,32 @@
                 </select>
             </div>
         </nav>
-    </header>
-    <div id="mobilenav">
-        <div class="navbtns">
-            <a href="#" >
-                <img src="home.png" width="20">
-                Home
-            </a>
-            <a href="#about">
-                <img src="user.png" width="20">
-                About Me
-            </a>
-            <a href="#skills-section">
-                <img src="skill.png" width="20">
-                My Skills
-            </a>
-            <a href="#frameworks-section">
-                <img src="framework.png" width="20">
-                Frameworks
-            </a>
-            <a href="#projects-section">
-                <img src="file.png" width="20">
-                My Projects
-            </a>
+        <div id="mobilenav">
+            <div class="navbtns">
+                <a href="#">
+                    <img src="home.png" width="20">
+                    Home
+                </a>
+                <a href="#about">
+                    <img src="user.png" width="20">
+                    About Me
+                </a>
+                <a href="#skills-section">
+                    <img src="skill.png" width="20">
+                    My Skills
+                </a>
+                <a href="#frameworks-section">
+                    <img src="framework.png" width="20">
+                    Frameworks
+                </a>
+                <a href="#projects-section">
+                    <img src="file.png" width="20">
+                    My Projects
+                </a>
+            </div>
         </div>
-    </div>
+    </header>
+
     <main>
         <div class="hero">
             <img src="html.png" width="130" class="fade-in">
@@ -93,14 +94,15 @@
         <div class="line"></div>
 
         <section id="about" class="about">
-            <div class="imagestack">
-                <img src="vscode.png" class="first">
+            <div class="imagediv">
+                <img src="vscodeicon.png">
             </div>
             <div class="aboutdiv">
                 <div>
                     <h1 class="section-title">Hi</h1>
                     <p>Greetings, I'm Mazen and 14 years old. I'm an <span class="highlight">independent Front-end Web
                             Developer</span> and <span class="highlight">UI/UX designer.</span></p>
+                    <br>
                     <p>I design, build and deploy the user-facing side of websites and mobile-friendly responsive
                         layouts.
                     </p>
@@ -109,7 +111,7 @@
         </section>
 
         <section id="skills-section" class="skills-section">
-            <h1 class="section-title">My Skills</h1>
+            <h1 class="section-title">My <span class="highlight">Skills</span></h1>
             <br><br>
             <div class="skills-items">
                 <div class="skill">
@@ -137,7 +139,7 @@
         </section>
 
         <section id="frameworks-section" class="frameworks-section">
-            <h1 class="section-title">Frameworks I Work With</h1>
+            <h1 class="section-title"><span class="highlight">Frameworks</span> I Work With</h1>
             <br><br>
             <div class="frameworks-items">
                 <div class="framework">
@@ -152,6 +154,50 @@
                 <div class="framework">
                     <img src="illustrator.png" class="framework-icon">
                 </div>
+            </div>
+        </section>
+
+        <section id="projects-section" class="projects-section">
+            <h1 class="section-title">My <span class="highlight">Projects</span></h1>
+            <br><br>
+            <div class="projects-items">
+                <div class="project">
+                    <img src="loginproject.png">
+                    <div>
+                        <div class="project-info">
+                            <h1 class="project-title">Login</h1>
+                            <div class="items-used">
+                                <p>Frameworks used:</p>
+                                <div>
+                                    <img src="html.png">
+                                    <img src="css.png">
+                                    <img src="illustrator.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-buttondiv">
+                            <button class="btn1">Open</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="placeholderimage.png">
+                    <div>
+                        <div class="project-info">
+                            <h1 class="project-title">Coming Soon</h1>
+                            <div class="items-used">
+                                <p>Frameworks used:</p>
+                                <div>
+                                    <em>No Items</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-buttondiv">
+                            <button class="btn1" disabled>Open</button>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </section>
     </main>
