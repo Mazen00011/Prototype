@@ -16,7 +16,7 @@ h1 {
     --mainbc: #08090f;
     --maincolor: #ffffff;
 
-    --navbc: #1616165e;
+    --navbc: #08090f;
     --navcolor: #ffffff;
     --navbtnhover: #13398a52;
     --navbtnactive: #001dc421;
@@ -562,3 +562,4 @@ footer {
         padding: 0 25px;
     }
 }
+
