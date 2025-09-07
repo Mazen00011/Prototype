@@ -16,7 +16,7 @@ h1 {
     --mainbc: #08090f;
     --maincolor: #ffffff;
 
-    --navbc: #08090f;
+    --navbc: #08090f99;
     --navcolor: #ffffff;
     --navbtnhover: #13398a52;
     --navbtnactive: #001dc421;
@@ -65,6 +65,7 @@ nav,
     align-items: center;
     padding: 0 20px;
     z-index: 200;
+    transition: all 0.2s ease;
 }
 
 .mainnav.menuToggled {
@@ -562,4 +563,5 @@ footer {
         padding: 0 25px;
     }
 }
+
 
